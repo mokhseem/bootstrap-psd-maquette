@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+header {
+  position: relative;
+  height: 100px;
+  background-color: #008daa;
+  box-shadow: 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.4);
+}
+
+header > div > a {
+  font-size: 24px;
+  color: #d4d0c8;
+  text-decoration: underline;
+}
+
+header > div > a:hover {
+  color: #eeeeed;
+}
+
+/* https://codepen.io/sosuke/pen/Pjoqqp */
+
+.socials > img {
+  filter: brightness(0) saturate(100%);
+}
+
+.social-header {
+  filter: invert(96%) sepia(2%) saturate(1992%) hue-rotate(37deg) brightness(111%) contrast(66%);
+}
+
+.social-header:hover {
+  filter: invert(90%) sepia(0%) saturate(53%) hue-rotate(153deg) brightness(105%) contrast(95%);
+}
+
+.social-bottom {
+  filter: invert(38%) sepia(100%) saturate(3486%) hue-rotate(167deg) brightness(93%) contrast(103%);
+}
+
+.social-bottom:hover {
+  filter: invert(45%) sepia(62%) saturate(4576%) hue-rotate(317deg) brightness(98%) contrast(88%);
+}
+
+nav > div > ul > li > a {
+  font-size: 18px;
+  line-height: 1.333;
+  color: #06bac5;
+}
+
+nav > div > ul > li > a:hover {
+  color: #eb477b;
+}
+
+nav, .jumbotron-fluid {
+  background-color: #eeeeed;
+}
+
+.bullet {
+  font-size: 32px;
+  color: #06bac5;
+}
+
+h1, h1 > span {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 55px;
+  line-height: 2.06;
+  text-align: right;
+  color: #005c7b;
+}
+
+.jumbotron-fluid {
+  height: 920px;
+  background: #eeeeed url(img/figure.png) no-repeat 8% 82%;
+}
+
+.jumbotron-fluid > div > p {
+  font-size: 24px;
+  font-weight: 500;
+  color: #005c7b;
+}
+
+.btn {
+  padding: 6px 18px 8px;
+  font-size: 30px;
+  color: #eeeeed;
+  background-color: #005c7b;
+}
+
+.btn:hover {
+  color: #eeeeed;
+  background-color: #eb477b;
+}
