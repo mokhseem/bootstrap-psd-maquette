@@ -25,8 +25,6 @@ header > div > a:hover {
   color: #eeeeed;
 }
 
-/* https://codepen.io/sosuke/pen/Pjoqqp */
-
 .socials > img {
   filter: brightness(0) saturate(100%);
 }
@@ -61,7 +59,7 @@ nav > div > ul > li > a:hover {
   color: #eb477b;
 }
 
-nav, .jumbotron-fluid {
+nav, .jumbotron-fluid, .reviews {
   background-color: #eeeeed;
 }
 
@@ -116,7 +114,7 @@ h2 {
   color: #005c7d;
 }
 
-.about, .advantages {
+.about, .advantages, .questions, .reviews {
   height: 1080px;
 }
 
@@ -160,7 +158,7 @@ h3 {
 
 .advantages > h2 {
   margin-bottom: 39px;
-  padding-bottom: 0 !important;
+  padding-bottom: 0;
 }
 
 .advantages > div {
@@ -174,5 +172,59 @@ h3 {
 }
 
 .fa-li {
-  left: -2.9em !important;
+  left: -2.9em;
+}
+
+.questions > h2 {
+  margin: 7px 0 16px;
+  padding: 2em 0 0.5em;
+}
+
+.accordion {
+  margin-right: 90px;
+  padding-left: 23px;
+}
+
+.card {
+  margin-bottom: 30px;
+}
+
+.card-header {
+  padding: 12px 0 0;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1;
+  color: #008daa;
+}
+
+.card-body {
+  margin: 0 31px 0 0;
+  padding: 7px 0 0 3px;
+  font-style: oblique;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #005c7d;
+}
+
+.bi-caret-up-fill:before, .bi-caret-down-fill:before {
+  margin-right: 8px;
+}
+
+.collapsed {
+  padding-bottom: 12px;
+}
+
+.questions > div > p, .questions > div > a {
+  padding-top: 6px;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.7;
+  color: #008daa;
+}
+
+.questions > div > a {
+  color: #005c7b;
+  text-decoration: underline;
 }

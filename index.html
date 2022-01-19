@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.1/css/all.css">
     <link rel="stylesheet" href="style.css">
     <title>Итоговая</title>
@@ -15,22 +16,22 @@
         <ul class="mt-1 nav align-items-center">
           <li class="nav-item">
             <a class="py-4 px-4 socials social-header nav-link" href="#">
-              <img src="img/vkontakte-header.png" alt="">
+              <img src="img/vkontakte-header.png" width="30" height="30" alt="">
             </a>
           </li>
           <li class="nav-item">
             <a class="py-4 px-4 socials social-header nav-link" href="#">
-              <img src="img/facebook-header.png" alt="">
+              <img src="img/facebook-header.png" width="30" height="30" alt="">
             </a>
           </li>
           <li class="nav-item">
             <a class="py-4 px-4 socials social-header nav-link" href="#">
-              <img src="img/instagram-header.png" alt="">
+              <img src="img/instagram-header.png" width="37" height="30" alt="">
             </a>
           </li>
           <li class="nav-item">
             <a class="py-4 pr-0 pl-4 socials social-header nav-link" href="#">
-              <img src="img/twitter-header.png" alt="">
+              <img src="img/twitter-header.png" width="30" height="25" alt="">
             </a>
           </li>
         </ul>
@@ -98,22 +99,90 @@
         <h2 class="text-uppercase">Преимущества</h2>
         <div class="d-flex justify-content-center">        
           <ul class="fa-ul">
-            <li><span class="fa-li"><i class="far fa-check-circle"></i></span>Обучение в престижном ВУЗе</li>
-            <li><span class="fa-li"><i class="far fa-check-circle"></i></span>Гибкие условия оплаты</li>
-            <li><span class="fa-li"><i class="far fa-check-circle"></i></span>Возможность тестового периода обучения</li>
-            <li><span class="fa-li"><i class="far fa-check-circle"></i></span>Индивидуальный график</li>
-            <li><span class="fa-li"><i class="far fa-check-circle"></i></span>Портфолио по окончании курса</li>
-            <li><span class="fa-li"><i class="far fa-check-circle"></i></span>Практикующие преподаватели</li>
+            <li>
+              <span class="fa-li">
+                <i class="far fa-check-circle"></i>
+              </span>
+              Обучение в престижном ВУЗе
+            </li>
+            <li>
+              <span class="fa-li">
+                <i class="far fa-check-circle"></i>
+              </span>
+              Гибкие условия оплаты
+            </li>
+            <li>
+              <span class="fa-li">
+                <i class="far fa-check-circle"></i>
+              </span>
+              Возможность тестового периода обучения
+            </li>
+            <li>
+              <span class="fa-li">
+                <i class="far fa-check-circle"></i>
+              </span>
+              Индивидуальный график
+            </li>
+            <li>
+              <span class="fa-li">
+                <i class="far fa-check-circle"></i>
+              </span>
+              Портфолио по окончании курса
+            </li>
+            <li>
+              <span class="fa-li">
+                <i class="far fa-check-circle"></i>
+              </span>
+              Практикующие преподаватели
+            </li>
           </ul>
         </div>
       </section>
-      <section>
+      <section class="questions">
         <h2 class="text-uppercase">Вопросы</h2>
-        <!-- аккордеон -->
-        <p>Не нашли ответа на свой вопрос?</p>
-        <a href="#">Спросить здесь</a>
+        <div class="accordion container" id="accordionQuestions">
+          <ul class="card list-unstyled border-0">
+            <li id="headingOne" class="card-header bg-transparent text-justify border-0" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <span>
+                <i class="bi bi-caret-up-fill"></i>
+              </span>
+              Могу ли я оплатить не всю сумму сразу, а платить в течение всего срока обучения? И как происходит оплата?
+            </li>
+            <li id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionQuestions">
+              <p class="card-body text-justify">
+                Да, конечно! У нас предусмотрена поэтапная оплата обучения. Вы можете разбить сумму на 2-8 частей. График платежей будет указан при заключении договора. Стоимость курса при этом остается постоянной на весь срок обучения. Реквизиты счета будут указаны в договоре на обучение.
+              </p>
+            </li>
+          </ul>
+          <ul class="card list-unstyled border-0">
+            <li id="headingTwo" class="card-header bg-transparent text-justify border-0 collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <span>
+                <i class="bi bi-caret-down-fill"></i>
+              </span>
+              Отличается ли диплом при прохождении курса в очной форме и в режиме экстерната?
+            </li>
+            <li id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionQuestions">
+              <p class="card-body"></p>
+            </li>
+          </ul>
+          <ul class="card list-unstyled border-0">
+            <li id="headingThree" class="card-header bg-transparent text-justify border-0 collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <span>
+                <i class="bi bi-caret-down-fill"></i>
+              </span>
+              Когда начинается дистанционное обучение?
+            </li>
+            <li id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionQuestions">
+              <p class="card-body"></p>
+            </li>
+          </ul>
+        </div>
+        <div class="text-center">
+          <p>Не нашли ответа на свой вопрос?</p>
+          <a href="#">Спросить здесь</a>
+        </div>
       </section>
-      <section>
+      <section class="reviews">
         <h2 class="text-uppercase">Отзывы</h2>
         <blockquote>
           <p>&laquo;Будучи мамой двух детей, я выбрала дистанционную форму обучения по курсу &laquo;Дизайн и верстка полиграфической продукции&raquo; и училась ежедневно, пока дети были в школе. Обучение заняло у меня чуть больше 6 месяцев. Очень понравилась практическая направленность обучения &ndash; ты с первого дня творишь!Сначала простые объекты, а потом целые брендбуки. Здорово, что есть видео-поддержка одного из самых сложных курсов &ndash; CorelDraw. Очень благодарна Александру Викторовичу за оперативность, справедливую критику и очень полезные советы. Я считаю его своим наставником и даже закончив курс, иногда прошу его оценить мои работы, но уже не учебные, а настоящие. Меня очень увлек фриланс. Он позволяет совмещать работу и семейные хлопоты, позволяет развиваться и самореализоваться. Одним словом &ndash; <span>Спасибо</span>!&raquo;</p>
