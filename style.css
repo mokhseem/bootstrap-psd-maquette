@@ -215,6 +215,10 @@ h3 {
   padding-bottom: 12px;
 }
 
+.questions {
+  height: 1070px;
+}
+
 .questions > div > p, .questions > div > a {
   padding-top: 6px;
   font-family: 'Philosopher', sans-serif;
@@ -227,4 +231,54 @@ h3 {
 .questions > div > a {
   color: #005c7b;
   text-decoration: underline;
+}
+
+.reviews > h2 {
+  margin: 3px 0 0.75em 0.75em;
+  padding: 2em 0 0.5em;
+}
+
+.carousel {
+  max-width: 1120px;
+  padding: 1.75em 1.75em 1.75em 24px;
+}
+
+blockquote {
+  width: 70%;
+}
+
+blockquote > p {
+  margin-bottom: 0.8em;
+  font-style: oblique;
+  font-size: 18px;
+  line-height: 1.333;
+  text-indent: 7px;
+  color: #005c7b;
+}
+
+blockquote > img {
+  margin-left: 3.5em;
+}
+
+.cite {
+  margin: 0.8em 0 0 2em;
+}
+
+.cite, cite {
+  font-style: normal;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 30px;
+  line-height: 1;
+  color: #008daa;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  align-items: flex-start;
+}
+
+/* должны быть платные far chevron-circle-right и far chevron-circle-left */
+.fa-arrow-alt-circle-left, .fa-arrow-alt-circle-right {
+  margin-top: 2em;
+  font-size: 3em;
+  color: #d4d0c8;
 }
