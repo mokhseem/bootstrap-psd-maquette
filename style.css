@@ -37,11 +37,11 @@ header > div > a:hover {
   filter: invert(90%) sepia(0%) saturate(53%) hue-rotate(153deg) brightness(105%) contrast(95%);
 }
 
-.social-bottom {
+.social-btn-b {
   filter: invert(38%) sepia(100%) saturate(3486%) hue-rotate(167deg) brightness(93%) contrast(103%);
 }
 
-.social-bottom:hover {
+.social-btn-b:hover {
   filter: invert(45%) sepia(62%) saturate(4576%) hue-rotate(317deg) brightness(98%) contrast(88%);
 }
 
@@ -106,24 +106,26 @@ h1, h1 > span {
 }
 
 h2 {
-  padding: 2em 0 1em;
+  padding: 2em 0 0.5em;
   font-family: 'Philosopher', sans-serif;
   font-size: 60px;
   font-weight: 700;
   text-align: center;
+  text-transform: uppercase;
   color: #005c7d;
 }
 
-.about, .advantages, .questions, .reviews {
+.about, .advantages, .reviews {
   height: 1080px;
 }
 
-.about > div > h2 {
-  margin-bottom: 31px;
+.about > h2 {
+  margin-bottom: 1em;
+  padding-top: 122px;
 }
 
-.about > .container {
-  padding: 2px 10px 0;
+.about > div {
+  padding: 1px 10px 0;
 }
 
 .about > div > p {
@@ -157,8 +159,7 @@ h3 {
 }
 
 .advantages > h2 {
-  margin-bottom: 39px;
-  padding-bottom: 0;
+  margin: 0 0 9px 3px;
 }
 
 .advantages > div {
@@ -175,9 +176,12 @@ h3 {
   left: -2.9em;
 }
 
+.questions {
+  height: 1070px;
+}
+
 .questions > h2 {
-  margin: 7px 0 16px;
-  padding: 2em 0 0.5em;
+  margin: 7px 6px 18px 0;
 }
 
 .accordion {
@@ -189,42 +193,47 @@ h3 {
   margin-bottom: 30px;
 }
 
+.fa-caret-up {
+  margin: 5px 13px 0 3px;
+  font-size: 30px;
+  color: #008daa;
+  transition: all 0.3s ease;
+}
+
+.card-header.collapsed .fa-caret-up {
+  transform: rotate(180deg);
+}
+
 .card-header {
-  padding: 12px 0 0;
+  padding: 0;
+}
+
+.card-header > span {
   font-family: 'Philosopher', sans-serif;
   font-size: 24px;
+  line-height: 0;
   font-weight: 700;
-  line-height: 1;
   color: #008daa;
 }
 
 .card-body {
   margin: 0 31px 0 0;
-  padding: 7px 0 0 3px;
+  padding: 5px 0 0 3px;
   font-style: oblique;
   font-size: 18px;
   line-height: 1.33;
   color: #005c7d;
 }
 
-.bi-caret-up-fill:before, .bi-caret-down-fill:before {
-  margin-right: 8px;
-}
-
 .collapsed {
-  padding-bottom: 12px;
-}
-
-.questions {
-  height: 1070px;
+  padding-bottom: 15px;
 }
 
 .questions > div > p, .questions > div > a {
-  padding-top: 6px;
+  margin-bottom: 24px;
   font-family: 'Philosopher', sans-serif;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.7;
   color: #008daa;
 }
 
@@ -234,8 +243,8 @@ h3 {
 }
 
 .reviews > h2 {
-  margin: 3px 0 0.75em 0.75em;
-  padding: 2em 0 0.5em;
+  margin: 3px 0 42px 49px;
+  padding-top: 124px;
 }
 
 .carousel {
@@ -248,7 +257,7 @@ blockquote {
 }
 
 blockquote > p {
-  margin-bottom: 0.8em;
+  margin-bottom: 14px;
   font-style: oblique;
   font-size: 18px;
   line-height: 1.333;
@@ -261,7 +270,7 @@ blockquote > img {
 }
 
 .cite {
-  margin: 0.8em 0 0 2em;
+  margin: 22px 0 0 2em;
 }
 
 .cite, cite {
@@ -281,4 +290,70 @@ blockquote > img {
   margin-top: 2em;
   font-size: 3em;
   color: #d4d0c8;
+}
+
+.contacts {
+  height: 897px;
+}
+
+.contacts > h2 {
+  margin: 6px 6px 1em 0;
+}
+
+.parent-outside {
+  margin-bottom: 5em;
+  padding: 63px 14px 0 16px;
+}
+
+.contacts > div > p, .parent-outside > a {
+  font-size: 30px;
+  font-weight: 500;
+  color: #005c7d;
+}
+
+.parent-outside > a {
+  color: #008daa;
+  text-decoration: underline;
+}
+
+.hover-link:hover {
+  color: #eb477b;
+}
+
+.socials-b > p {
+  margin-right: 28px;
+  padding-top: 37px;
+}
+
+.socials-b-list {
+  max-width: 670px;
+  padding: 2em 70px 0 0;
+}
+
+footer {
+  height: 177px;
+  background-color: #005c7b;
+}
+
+footer > .container {
+  padding: 0 16px 0 13px;
+}
+
+.copyright {
+  margin-bottom: 13px;
+  padding-top: 14px;
+  font-size: 24px;
+  line-height: 30px;
+  color: #eeeeed;
+  text-align: justify;
+}
+
+.copyright > p {
+  margin-bottom: 10px;
+}
+
+footer > div > a {
+  font-size: 18px;
+  color: #eeeeed;
+  text-decoration: underline;
 }
